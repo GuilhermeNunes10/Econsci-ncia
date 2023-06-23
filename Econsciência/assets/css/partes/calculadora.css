@@ -1,0 +1,110 @@
+body {
+background-color: #3c3c3c;
+}
+
+#rastro {
+text-align: center;
+display: flex;
+font-size: 60px;
+justify-content: center;
+align-items: center;
+padding-top: 70px;
+padding-bottom: 50px;
+color: #83CB2D;
+}
+
+form {
+flex-direction: column;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#input input {
+display: block;
+padding: 10px;
+border-radius: 5px;
+outline: none;
+box-shadow: 0px 8px 8px -5px #00000033;
+width: 450px;
+height: 42px;
+border: 1px solid #333;
+margin-bottom: 20px;
+color: #ffffff;
+background-color: #333;
+border-color: #ffffff;
+}
+
+#calc {
+border: none;
+font-family: Arial, Helvetica, sans-serif;
+cursor: pointer;
+position: relative;
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+transition: all 0.3s;
+border-radius: 5px;
+color: #83CB2D;
+border: none;
+padding: 13px;
+width: 450px;
+text-align: center;
+text-decoration: none;
+border: 1px solid #ffffff;
+background-color: #333;
+box-shadow: 0px 8px 8px -5px #00000033;
+font-weight: bold;
+}
+
+::placeholder{
+ color: white;
+ font-size: 15px;
+}
+
+button:active {
+top: 1px;
+}
+
+#resultado {
+margin-top: 20px;
+text-align: center;
+}
+
+.grupo label {
+display: inline-block;
+margin-right: 10px;
+}
+
+.grupo-checkbox input {
+vertical-align: middle;
+}
+
+.grupo {
+margin-bottom: 40px;
+}
+
+p, h3, label{
+ color: white;
+}
+
+input[type="checkbox"] {
+width: 15px;
+height: 15px;
+margin-bottom: 20px;
+margin-top: 10px;
+}
+
+#tudinho {
+background-color: #343434;
+width: 550px;
+height: 600px;
+box-shadow: 0px 8px 8px -5px #00000033;
+border-radius: 5px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+

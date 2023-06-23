@@ -1,0 +1,291 @@
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 65px !important;
+    }
+
+    h4 {
+        font-size: 25px !important;
+    }
+
+    .Servicos .tamanho {
+        width: 300px !important;
+        height: 560px !important;
+    }
+
+    .Servicos .Título {
+        font-size: 35px;
+    }
+
+    .Servicos .Texto {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .Inicio #nos #his {
+        font-size: 19px !important;
+        text-align: justify;
+    }
+
+}
+
+@media (max-width: 769px) {
+    h1 {
+        font-size: 45px !important;
+    }
+
+    h4 {
+        font-size: 20px !important;
+    }
+
+    .Servicos #Serviços {
+        display: block;
+    }
+
+    .Servicos .tamanho {
+        width: 300px !important;
+        height: 500px !important;
+        margin: 0px 0px 100px 0px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+
+    .Servicos .Título {
+        font-size: 30px;
+    }
+
+    .Servicos .Texto {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .Inicio #nos #his {
+        font-size: 15px !important;
+        text-align: justify;
+    }
+
+    .Inicio #nos .img img {
+        width: 300px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .Inicio #nos .img {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+    }
+}
+
+/* Menu */
+
+@media (max-width: 600px) {
+
+    #cabecalho .texto {
+        display: none;
+
+    }
+
+    #cabecalho .btnmenu {
+        display: block;
+    }
+
+    #cabecalho .btnmenu img {
+        display: block;
+        width: 30px;
+
+    }
+
+    #cabecalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Inicio #nos #sobre .img img {
+        display: block;
+        width: 300px !important;
+    }
+
+    .Inicio #nos #sobre {
+        display: block;
+
+    }
+
+    .Inicio #nos #sobre .img img {
+        width: 300px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+/* Consultório */
+@media (max-width: 1024px) {
+    #parent .col {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 25px;
+        justify-items: center;
+    }
+
+    #parent .col img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 660px) {
+    #rodape {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #logo img {
+        height: 80px;
+    }
+
+    #rodape p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 460px) {
+    #parent .col {
+        display: block;
+    }
+
+    #parent .col img {
+        padding: 8px;
+    }
+
+    #corpo #sobre {
+        margin: 20px;
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+
+    .Inicio h1 {
+        font-size: 35px !important;
+    }
+
+    .Inicio h4 {
+        font-size: 14px !important;
+    }
+
+    #sobre .txt .negrito {
+        text-align: center !important;
+    }
+
+}
+
+/* agende */
+
+@media (max-width: 1024px) {
+    .agende {
+        font-size: 40px;
+    }
+
+    .botaoequipe {
+        width: 380px;
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 770px) {
+    .agende {
+        font-size: 30px;
+    }
+
+    .botaoequipe {
+        height: 50px;
+        width: 320px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 660px) {
+    .agende {
+        font-size: 25px;
+    }
+
+    .botaoequipe {
+        height: 45px;
+        width: 280px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #rodape {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #logo img {
+        height: 80px;
+    }
+
+    #rodape p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 460px) {
+    .agende {
+        font-size: 18px;
+    }
+
+    .botaoequipe {
+        height: 45px;
+        width: 200px;
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 376px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    #apps img {
+        width: 100px;
+    }
+}
+
+
+@media (max-width: 460px) {
+    #input input {
+        width: 400px;
+    }
+
+    #calc {
+    width: 410px;
+    }
+}
+
+@media (max-width: 376px) {
+    #input input {
+        width: 360px;
+    }
+
+    #calc {
+    width: 360px;
+    }
+}
+
+@media (max-width: 320px) {
+    #input input {
+        width: 300px;
+    }
+
+    #calc {
+    width: 300px;
+    }
+}

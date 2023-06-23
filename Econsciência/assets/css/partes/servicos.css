@@ -1,0 +1,91 @@
+:root {
+    --cor-topo: #333;
+    --cor-rodape: #D9D9D9;
+    --cor-preta: black;
+    --cor-principal: #79B4C2;
+    --cor-branca: white;
+    --cor-div: #D9D9D9;
+    --padding-20px: 20px;
+    --fonte-bebas: "Bebas Neue";
+    --fonte-livvic: "Livvic";
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    transition: all 0.3s;
+}
+
+.margin {
+    margin: 0px 15px;
+}
+
+main h1{
+    margin: 25px 0px 0px 0px;
+    color: #83CB2D;
+    font-size: 75px;
+    text-align: center;
+    font-family: var(--fonte-bebas);
+}
+
+main h4{
+    font-family: 'Livvic', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 5px 0px 110px 0px;
+    color: white;
+}
+
+#Serviços{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 50px;
+    color: #83CB2D;
+    padding-bottom: 30px;
+}
+
+#Especialidades{
+    background-color: #3e3e3e;
+    text-align: center;
+    width: 380px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.Img{
+    margin: -115px 0px 0px 0px;
+}
+
+#Procedimentos{
+    background-color:#3e3e3e;
+    text-align: center;
+    width: 380px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+#Clínica{
+    background-color: #3e3e3e;
+    text-align: center;
+    width: 380px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.Título{
+    background-color: #3e3e3e;
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+    color: #83CB2D;
+    margin: -10px 0px 20px 0px;
+}
+
+.Texto{
+    font-size: 22px;
+    font-family: 'Livvic', sans-serif;
+    margin: 0px 0px 30px 0px;
+}
+.Servicos .Img {
+    height: 100px;
+}

@@ -1,0 +1,106 @@
+:root {
+    --cor-topo: #d9d9d9;
+    --cor-rodape: #D9D9D9;
+    --cor-preta: black;
+    --cor-principal: #79B4C2;
+    --cor-branca: white;
+    --padding-20px: 20px;
+    --fonte-bebas: "Bebas Neue";
+    --fonte-livvic: "Livvic";
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    transition: all 0.3s;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#corpo #banner {
+    background-image: url(../../img/Banner.jpeg);
+    background-attachment: fixed;
+    /* Aumenta o tamanho da imagem */
+    height: calc(100vh - 93px);
+    background-position: center center;
+    /* Usado para a imagem se ajustara tela */
+    background-size: cover;
+    /* Titulo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.margin-cima-baixo{
+    margin: 20px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px black;
+}
+
+#corpo #banner h1{
+    margin: 25px 0px 0px 0px;
+    color: #83CB2D;
+    text-shadow: 2px 2px 4px black;
+    font-size: 75px;
+    text-align: center;
+    font-family: var(--fonte-bebas);
+}
+
+
+#corpo #sobre{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin: 50px;  
+    color: white;
+}
+
+#corpo #nos div{
+    padding: var(--padding-20px);
+}
+
+#sobre .img img {
+    padding-top: 20px;
+    width: 400px;
+}
+
+#corpo #nos .negrito{
+    color: var(--cor-topo);
+    font-weight: bold;
+    font-size: 30pt;
+    font-family: 'Bebas Neue';
+     color: #83CB2D;
+}
+
+#corpo #nos p{
+    margin-top: 10px;
+    font-size: 23px;
+    font-family: 'Livvic', sans-serif;
+    text-align: justify;
+
+}
+
+#content-menu{
+    display: none;
+}
+
+button{
+    padding: var(--padding-20px);
+    border-radius: 20px;
+    border: none;
+    background-color: var(--cor-principal);
+    color: var(--cor-topo);
+    cursor: pointer;
+}
+
+.fim img{
+    width: 100%;
+}
+
+main{
+    background-color: #333;  
+}
